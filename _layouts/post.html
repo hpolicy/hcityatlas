@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }} | HADES 연구단</title>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">HADES
+      <small>건강도시아틀라스 고도화 연구단</small>
+    </a>
+    <div class="nav-links">
+      <a href="{{ '/' | relative_url }}#about">연구단 소개</a>
+      <a href="{{ '/' | relative_url }}#sixps">6Ps 지표체계</a>
+      <a href="{{ '/' | relative_url }}#people">연구진</a>
+      <a href="{{ '/' | relative_url }}#roadmap">연구 로드맵</a>
+      <a href="{{ '/news/' | relative_url }}">소식</a>
+    </div>
+  </div>
+</nav>
+
+<div class="post-wrap">
+  <a class="back" href="{{ '/news/' | relative_url }}">← 소식 목록으로</a>
+  <h1>{{ page.title }}</h1>
+  <div class="post-meta">{{ page.date | date: "%Y년 %-m월 %-d일" }}</div>
+  {% if page.image %}<img class="post-hero-img" src="{{ page.image | relative_url }}" alt="{{ page.title }}">{% endif %}
+  <div class="post-body">
+    {{ content }}
+  </div>
+</div>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-brand">HADES · 건강도시아틀라스 고도화 연구단</div>
+    <span>연구책임자 정혜주 · 고려대학교 보건정책관리학부</span>
+    <span>hpolicy@korea.ac.kr</span>
+  </div>
+</footer>
+
+</body>
+</html>
