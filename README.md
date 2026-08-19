@@ -47,4 +47,4 @@ OAuth 연동(무료, Cloudflare Workers 등)이 한 번 필요합니다. 연동 
 - 커스텀 도메인 연결 시 `_config.yml` 의 `url`/`baseurl` 주석을 참고해 두 줄을 수정하세요.
 - 연구진에게 글쓰기 권한을 주려면: Settings → Collaborators → **Add people** 로 GitHub 계정을 초대합니다.
 
-문의: hpolicy@korea.ac.kr
+문의: 김기훈 (elitegroup93@korea.ac.kr)
