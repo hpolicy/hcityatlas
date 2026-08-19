@@ -95,9 +95,10 @@
   .person .name{font-weight:700;font-size:1rem;}
   .person .aff{font-size:.8rem;color:var(--gold);font-weight:600;margin-bottom:8px;}
   .person p{font-size:.85rem;color:var(--ink-soft);}
-  .plink{display:inline-block;margin-top:10px;font-size:.78rem;font-weight:700;
-         color:var(--accent);text-decoration:none;}
-  .plink:hover{text-decoration:underline;}
+  .plink{display:inline-block;margin-left:8px;font-size:.68rem;font-weight:600;line-height:1.5;
+         color:var(--ink-soft);background:var(--card);border:1px solid var(--line);
+         border-radius:999px;padding:2px 10px;text-decoration:none;vertical-align:middle;white-space:nowrap;}
+  .plink:hover{color:var(--accent);border-color:var(--accent);}
   .partners{margin-top:34px;}
   .partners h3{font-size:1rem;font-weight:700;margin-bottom:12px;}
   .partner-chips{display:flex;flex-wrap:wrap;gap:10px;}
